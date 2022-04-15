@@ -102,42 +102,47 @@ header {
 
 #fullpage .effect {
     position: absolute;
-    box-shadow: 0 0 5vw rgba(255, 255, 255, 0.5);
-    border-radius: 100%;
+
 }
 
-#fullpage .efc1 {
+#fullpage .effect circle {
+    fill: rgb(199, 208, 218);
+    box-shadow: 0 0 5vw rgba(255, 255, 255, 0.5);
+}
+
+#fullpage .efc1   {
     top: 18%;
     left: 90%;
-    background-image: linear-gradient(rgb(255, 160, 96), rgb(255, 118, 118));
+    /* background-image: linear-gradient(rgb(255, 160, 96), rgb(255, 118, 118)); */
     width: 4%;
     height: 8%;
 }
-#fullpage .efc2 {
+
+#fullpage .efc2  {
     top: 68%;
     left: 70%;
-    background-image: linear-gradient(rgb(176, 255, 130), rgb(133, 210, 255));
+    /* background-image: linear-gradient(rgb(176, 255, 130), rgb(133, 210, 255)); */
     width: 6%;
     height: 12%;
 }
-#fullpage .efc3 {
+#fullpage .efc3  {
     top: 20%;
     left: 20%;
-    background-image: linear-gradient(rgb(79, 132, 211), rgb(171, 119, 255));
+    /* background-image: linear-gradient(rgb(79, 132, 211), rgb(171, 119, 255)); */
     width: 7%;
     height: 14%;
 }
-#fullpage .efc4 {
+#fullpage .efc4  {
     top: 70%;
     left: 8%;
-    background-image: linear-gradient(rgb(198, 74, 255), rgb(255, 126, 201));
+    /* background-image: linear-gradient(rgb(198, 74, 255), rgb(255, 126, 201)); */
     width: 5%;
     height: 10%;
 }
-#fullpage .efc5 {
+#fullpage .efc5  {
     top: 54%;
     left: 42%;
-    background-image: linear-gradient(rgb(255, 222, 74), rgb(195, 255, 126));
+    /* background-image: linear-gradient(rgb(255, 222, 74), rgb(195, 255, 126)); */
     width: 2%;
     height: 4%;
 }
@@ -410,13 +415,13 @@ header {
     }
 
     /* box2 */
-    #fullpage .box2 p {
+    #fullpage .box2 .intro p {
         width: 60%;
         line-height: 2;
         font-size: 2.8vw;
         top: 40%;
     }
-    #fullpage .box2 a {
+    #fullpage .box2 .intro a {
         font-size: 2vw;
         padding: 2vw 4vw;
         top: 60%;
@@ -483,14 +488,14 @@ header {
     }
 
     /* box2 */
-    #fullpage .box2 p {
+    #fullpage .box2 .intro p {
         width: 55%;
         line-height: 2;
         font-size: 4.6vw;
         letter-spacing: 0.2vw;
         top: 38%;
     }
-    #fullpage .box2 a {
+    #fullpage .box2 .intro a {
         font-size: 4vw;
         padding: 3.8vw 5vw;
         top: 66%;
